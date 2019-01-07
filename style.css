@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 #main {
     width: 90%;
     margin: auto;
 }
 #nav {
+    z-index: 10;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,6 +18,10 @@ body {
     position: sticky;
     top: 0;
     background: white;
+}
+#nav img {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #menu ul {
     list-style-type: none;
@@ -26,7 +32,7 @@ body {
     text-decoration: none;
     color: grey;
     margin-left: 30px;
-    padding-top: 36px;
+    padding-top: 8px;
 }
 
 #menu ul li a:hover {
@@ -36,6 +42,7 @@ body {
 }
 #slider {
     display: flex;
+
 }
 #slider img {
     width: 100%;
@@ -57,7 +64,7 @@ body {
 */
 .precedent, .suivant {
     position: absolute;
-    top: 36%;
+    top: 55%;
     background: rgba(43, 42, 47, 0.6);
     border: none;
     height: 60px;
@@ -224,9 +231,9 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#images_projet img {
+#images_projet img, #img_active_div {
     width: 23%;
-    padding-bottom: 35px;
+    margin-bottom: 10px;
 }
 #image4 {
     width: 390px;
@@ -234,13 +241,25 @@ h2 {
     background: url('webagency_images/images/portfolio/04.jpg');
     background-size: cover; /* dezoom l'image */
 }
-#images4 img {
-
+#circle_projet {
+    width: 50px !important;
+    position: relative;
+    top: -10%;
+    left: 87%;
+    z-index: 1;
 }
 .essai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(43,42,47,0.6);
+    height: 60px;
+    margin-bottom: 0;
     color: white;
-    margin-left: 20px;
-    margin-top: 0;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: .9em;
+    margin-left: -47px;
 }
 #texte_img4 {
     background: rgba(43, 42, 47, 0.6);
@@ -301,4 +320,11 @@ form input[type="submit"]:hover {
 }
 #dotted {
     border-bottom: 1px dotted #777777;;
+}
+#img_active_div {
+    background: url('webagency_images/images/portfolio/04.jpg');
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    background-size: cover;
 }
