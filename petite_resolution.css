@@ -6,6 +6,20 @@
     flex-direction: column;
     position: relative;
 }
+/* ESSAI HAMBURGEUR */
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+
 #nav ul {
     padding-left: 0;
 }
@@ -61,6 +75,9 @@
     height: 100%;
     padding-bottom: 34.1% !important;
     margin-bottom: 20px;
+}
+.img_projet_div img {
+    margin: auto;
 }
 .petit_oeil {
     display: none;

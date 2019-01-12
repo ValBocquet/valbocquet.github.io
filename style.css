@@ -373,6 +373,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+input[type="checkbox"] {
+    display: none;
+}
 #menu ul {
     list-style-type: none;
     display: flex;
@@ -404,7 +407,10 @@ body {
     background-size: cover;
     
 }
-
+.mySlides {
+    width: 100%;
+    height: 100%;
+}
 .precedent {
     border-radius: 0 35px 35px 0; 
     order: 1;
