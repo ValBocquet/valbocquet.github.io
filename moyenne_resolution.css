@@ -1,0 +1,42 @@
+#nav {
+    position: relative;
+}
+#menu ul li:first-child a{
+    margin-left: 0;
+}
+.precedent, .suivant {
+    display: none;
+}
+#description {
+    top: 14%;
+}
+#ordi_competences {
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#ordinateur {
+    padding: 0;
+    display: flex;
+}
+#ordinateur img {
+    margin: auto;
+}
+.petit_oeil {
+    display: none;
+}
+.img_projet_div span {
+    display: none;
+}
+#nav_projets {
+    margin-bottom: 10px;
+}
+.fleche_nav {
+    display: none;
+}
+.img_projet_div {
+    width: 49%;
+}
+form input[type="submit"] {
+    width: 150px;
+}
