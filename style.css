@@ -369,6 +369,9 @@ body {
     top: 0;
     background: white;
 }
+.header__icon {
+    display: none;
+}
 #nav img {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -651,8 +654,8 @@ h2 {
     z-index: 50;
 }
 span[class="texte_img_projet"] {
-    padding: 15px;
-    width: 409px;
+    padding-top: 20px;
+
 }
 .petit_oeil {
     position: absolute;

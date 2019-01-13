@@ -7,21 +7,20 @@
     position: relative;
 }
 #menu ul li:first-child a{
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
 }
-/* ESSAI HAMBURGEUR */
-
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
+#menu ul {
+    flex-direction: column;
+}
+#menu ul li {
+    padding-bottom: 20px;
+}
+#menu ul li a {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+}
 
 #nav ul {
     padding-left: 0;
