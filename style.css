@@ -540,9 +540,6 @@ h2 {
     float: left;
     padding-right: 20px;
 }
-#competences ul li p {
-
-}
 
 .gris_texte {
     color: #686C71;
@@ -653,31 +650,49 @@ h2 {
 .img_projet_div:hover .petit_oeil {
     z-index: 50;
 }
+span[class="texte_img_projet"] {
+    padding: 15px;
+    width: 409px;
+}
 .petit_oeil {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 20px;
     right: 50px;
     z-index: 1;
-    width: 60px;
+    width: 120px;
+    height: 80px;
 }
-#circle_regular {
-    top: 162px;
+.circle-regular {
+    position: relative;
+    top: 179px;
+    margin-left: 96px;
+    height: 80px;
+    width: 80px;
+    font-size: 3.5em;
     color: white;
-    width: 55px;
-    left: 18.2px;
 }
-#circle_solid {
-    width: 50px;
-    top: 99px;
-    left: 20.30px;
+.eye-solid {
+    position: relative;
+    z-index: 10;
+    top: 138px;
+    margin-left: 110px;
+    height: 40px;
+    font-size: 1.5em;
+    color: white;
+    width: 40px;
 }
-#eye_solid {
-    width: 30px;
-    left: 30px;
-    top: 52px;
-    z-index: 60;
+.circle-solid {
+    margin-left: 100px;
+    position: relative;
+    top: 103px;
+    height: 40px;
+    width: 40px;
+    font-size: 3em;
+    color:#4494bb;
+    width: 40px;
 }
-
 form {
     background: rgba(242, 246, 248, 0.75);
     width: 400px;
