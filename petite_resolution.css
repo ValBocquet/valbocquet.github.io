@@ -51,6 +51,9 @@
 #competences {
     padding: 0;
 }
+.gris_texte {
+    text-align: justify;
+}
 #competences ul {
     padding-left: 0;
 }
@@ -90,6 +93,9 @@
 form {
     width: 100%;
     position: inherit;
+}
+form input[type="submit"] {
+    width: 150px;
 }
 iframe {
     width: 100%;

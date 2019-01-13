@@ -417,27 +417,30 @@ input[type="checkbox"] {
 .precedent {
     border-radius: 0 35px 35px 0; 
     order: 1;
-    left: 1.8%;
-    align-self: center;
+    left: 29px;
+
 }
 #slider img {
     order: 2;
 }
 .suivant {
     order: 3;
-    right: 1.8%;
-    align-self: center;
+    right: 29px;
     border-radius: 35px 0 0 35px;
 }
 .precedent, .suivant {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;    
     background: rgba(43, 42, 47, 0.6);
     border: none;
     height: 60px;
-    display: inline-block;
     color: white;
     font-size: 30px;
-    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
 
 }
 
