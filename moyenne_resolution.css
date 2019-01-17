@@ -8,10 +8,13 @@
     display: none;
 }
 #description {
-    top: 14%;
-    left: 20px;
+    position: initial;
+    color: grey;
 }
-
+#description h1, #description h4 {
+    text-align: center;
+}
+#infos_btn {width: 150px; margin: auto; display: block;}
 #ordi_competences {
     flex-direction: column;
     justify-content: center;
