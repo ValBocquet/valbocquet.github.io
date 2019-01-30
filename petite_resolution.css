@@ -60,17 +60,33 @@
 #projets p {
     width: 100%;
 }
+.icons {
+    display: none;
+}
 #nav_projets {
     display: none;
 }
-#images_projet, #img_active_div {
+.img_projet_div:hover .eye{
+    visibility: hidden;
+}
+.texte {
+    display: block;
+    z-index: 50;
+    visibility: initial;
+    bottom: 14px;
+}
+.texte_img_projet {
+    display: block;
+    visibility: initial;
+}
+#images_projet {
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-#images_projet img, #img_active_div {
+#images_projet img {
     padding-bottom: 10px;
 }
 .img_projet_div {
@@ -84,12 +100,7 @@
 .img_projet_div img {
     margin: auto;
 }
-.petit_oeil {
-    display: none;
-}
-.img_projet_div span {
-    display: none;
-}
+
 form {
     width: 100%;
     position: inherit;

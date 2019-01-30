@@ -439,7 +439,7 @@ input[type="checkbox"] {
     font-size: 30px;
     cursor: pointer;
     width: 30px;
-    top: 250px;
+    top: 43%;
 
 }
 .precedent p {
@@ -707,6 +707,7 @@ h2 {
 .texte span {
     display: block;
     padding: 20px;
+    padding-top: 10px;
 }
 /* .img_projet_div {
     width: 100%;
@@ -766,7 +767,10 @@ span[class="texte_img_projet"] {
     z-index: 0;
 
 }
-
+strong {
+    font-weight: bold;
+    font-size: 1.4em;
+}
 form {
     background: rgba(242, 246, 248, 0.75);
     width: 400px;
@@ -776,7 +780,7 @@ form {
     right: 20%;
     margin-top: 60px;
     opacity: 1;
-    z-index: 50;
+    z-index: 8;
 
 }
 form h3 {
@@ -823,6 +827,11 @@ form input[type="submit"]:hover {
     flex-wrap: nowrap;
     align-items: flex-end;
     background-size: cover;
+}
+iframe {
+    height:800px; 
+    width:100%; 
+    border:0;
 }
 #iframe {
     background: blue;

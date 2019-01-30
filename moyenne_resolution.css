@@ -27,11 +27,13 @@
 #ordinateur img {
     margin: auto;
 }
-.petit_oeil {
-    display: none;
+.img_projet_div:hover .eye{
+    visibility: hidden;
 }
-.img_projet_div span {
-    display: none;
+.texte {
+    display: block;
+    z-index: 50;
+    visibility: initial;
 }
 #nav_projets {
     margin-bottom: 10px;
